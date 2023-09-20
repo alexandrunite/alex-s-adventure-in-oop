@@ -99,14 +99,13 @@ public:
 
 int main()
 {
-/**    Employee alex=Employee("Alex","Hronica","masculin",17);
+   Employee alex=Employee("Alex","Hronica","masculin",17);
     alex.userDataDef();
     Employee angajat=Employee("angajat","Hronica","neutru",16);
     angajat.userDataDef();
     alex.setAge(16);
     cout<<alex.getName()<<" are "<<alex.getAge()<<" ani.";
-    Employee alex=Employee("Alex","Hronica","masculin",17);
-    alex.AskForPromotion();**/
+    alex.AskForPromotion();
     Developer d = Developer("vai","Hronica","neutru",23,"C++");
     d.FixBug();
 }
